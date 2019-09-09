@@ -1,3 +1,5 @@
+[![](https://jitpack.io/v/KODDevYouTube/Poster.svg)](https://jitpack.io/#KODDevYouTube/Poster)
+
 # Poster
 
 Poster is an Android Library for manipulation with image and text.
