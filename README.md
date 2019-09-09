@@ -56,13 +56,12 @@ poster.setOnCurrentView(new Poster.OnCurrentView() {
             public void currentView(View currentView) {
                 if (currentView instanceof TextView){
                     // TextView
-                    Toast.makeText(MainActivity.this, "text", Toast.LENGTH_SHORT).show();
+		    TextView text = (TextView) currentView;
                 } else if (currentView instanceof ImageView){
                     // ImageView
-                    Toast.makeText(MainActivity.this, "image", Toast.LENGTH_SHORT).show();
+		    ImageView image = (ImageView) currentView;
                 } else {
                     // View is null
-                    Toast.makeText(MainActivity.this, "null", Toast.LENGTH_SHORT).show();
                 }
             }
 
