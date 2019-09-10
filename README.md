@@ -74,6 +74,9 @@ poster.setOnCurrentView(new Poster.OnCurrentView() {
         });
 ```
 
+## Licence
+This library falls under [Apache v2](https://github.com/KODDevYouTube/Poster/blob/master/LICENSE)
+
 ## Screenshots
 
 ![Alt text](https://github.com/KODDevYouTube/Poster/blob/master/Screenshots/d1.png?raw=true)
